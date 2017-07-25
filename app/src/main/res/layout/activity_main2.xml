@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <zhou.anew.com.newapp.mvp.view.main.GoTopScrollView
+            android:id="@+id/sc_up"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            android:fadingEdge="none"
+            android:fillViewport="true"
+            android:listSelector="@android:color/transparent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|top"
+                android:orientation="vertical">
+
+                <zhou.anew.com.newapp.mvp.view.main.MyGridView
+                    android:id="@+id/gv_pic_show"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:verticalSpacing="2dp"
+                    android:horizontalSpacing="2dp"
+                    android:columnWidth="90dp"
+                    android:stretchMode="columnWidth"
+                    android:gravity="center"
+                    android:scrollbars="none"
+                    android:paddingTop="2dp"
+                    android:listSelector="@android:color/transparent"
+                    android:numColumns="2"/>
+
+                <TextView
+                    android:id="@+id/tv_began"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/gray_9"
+                    android:text="点击加载..."/>
+
+            </LinearLayout>
+
+        </zhou.anew.com.newapp.mvp.view.main.GoTopScrollView>
+
+        <ImageView
+            android:id="@+id/iv_go_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:src="@mipmap/return_top"
+            android:visibility="gone"
+            android:layout_margin="20dp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

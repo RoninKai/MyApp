@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--颜色规范-->
+    <color name="gray_ed">#ededed</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#ff0000</color>
+    <color name="translucent">#00000000</color>
+    <color name="light_gray">#f1f1f1</color>
+    <color name="gray_6">#666666</color>
+    <color name="gray_bg">#e8e8e8</color>
+    <color name="gray_9">#999999</color>
+    <color name="gray_e">#eeeeee</color>
+    <color name="gray_3">#333333</color>
+    <color name="gray_d3">#d3d3d3</color>
+    <color name="light_blue">#41acff</color>
+    <color name="light_black">#333333</color>
+    <color name="light_red">#ff7733</color>
+    <color name="red_m">#ff6a3f</color>
+    <color name="light_red_p">#90ff7733</color>
+    <color name="blue_l">#1d94f1</color>
+    <color name="blue_r">#c2e5fe</color>
+    <color name="blue_m">#158ced</color>
+    <color name="blue_m2">#289cfa</color>
+    <color name="blue_m3">#299bfa</color>
+    <color name="light_gray_scan">#f0f0f0</color>
+
+    <color name="tranwhite">#6b8cca</color>
+    <color name="green">#6BE61a</color>
+    <color name="blue_green">#00b4c4</color>
+    <color name="blue_green2">#00bcc3</color>
+    <color name="yellow">#ffa800</color>
+    <color name="light_yellow">#a8cd00</color>
+    <color name="light_yellow2">#A9CC00</color>
+
+    <color name="green_gray">#a8cc00</color>
+    <color name="lable_blue">#3DB0FD</color>
+</resources>
