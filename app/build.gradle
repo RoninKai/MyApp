@@ -25,7 +25,7 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:23.3.0'
-    compile 'com.squareup.picasso:picasso:2.5.2'        //图片加载缓存库
+    compile 'com.squareup.picasso:picasso:2.5.2'        //图片加载缓存库       注意添加混淆
     compile 'me.wangyuwei:shoppoing:1.0.5'          //饿了么加入购物车view
     compile 'com.bigkoo:convenientbanner:2.0.5'   //图片轮播
     compile 'com.ToxicBakery.viewpager.transforms:view-pager-transforms:1.2.32@aar' //图片切换效果库

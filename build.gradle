@@ -16,7 +16,7 @@ allprojects {
     repositories {
         jcenter()
         maven {
-            url 'https://dl.bintray.com/wangyuwei/maven'
+            url 'https://dl.bintray.com/wangyuwei/maven'//饿了么加入购物车view
         }
         maven { url 'https://jitpack.io' }
 
