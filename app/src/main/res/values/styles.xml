@@ -28,5 +28,25 @@
         <item name="android:backgroundDimEnabled">false</item>    
      </style>
 
+    <style name="number_keyboard">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:background">@drawable/keyboard_number_color</item>
+    </style>
+
+    <style name="myTheme" parent="Theme.AppCompat.Light">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/myStyle</item>
+    </style>
+
+    <style name="myStyle" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/enter</item>
+    </style>
 
 </resources>

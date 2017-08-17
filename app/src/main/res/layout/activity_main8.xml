@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="zhou.anew.com.newapp.mvp.view.textView.Main8Activity">
+
+    <zhou.anew.com.newapp.mvp.view.textView.AutoSplitTextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:textSize="14sp"
+        android:text="您好，我是，您的快件100000025890暂100000025890放100000025890多100000025890日100000025890未100000025890取100000025890，100000025890请100000025890您100000025890带100000025890好100000025890有100000025890效100000025890证100000025890件100000025890速100000025890来100000025890取100000025890件100000025890，100000025890如10000002589021000000258904100000025890小100000025890时100000025890未100000025890取走，将做退回处理，谢谢配合！"
+        android:layout_height="wrap_content"/>
+
+    <zhou.anew.com.newapp.mvp.view.textView.MyTextView
+        android:id="@+id/tv_content2"
+        android:layout_below="@+id/tv_content"
+        android:paddingTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="您好，我是,您的快件,暂放多日未您好，我是100000025890100000025890100000025890100000025890100000025890,您的100000025890100000025890100000025890100000025890快100000025890件,暂放多日未您好，我是,您的快件,暂放多日未您好，我是,您的快件,暂放多日未您好，我是,您的快件,暂放多日未100000025890取100000025890,100000025890请100000025890您100000025890带100000025890好100000025890有100000025890效100000025890证100000025890件100000025890速100000025890来100000025890取100000025890件10000002589,100000025890如10000002589021000000258904100000025890小100000025890时100000025890未100000025890取走，将做退回处理，谢谢配合！"
+        />
+
+    <TextView
+        android:id="@+id/tv_content3"
+        android:layout_below="@+id/tv_content2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="20dp"
+        />
+
+</RelativeLayout>

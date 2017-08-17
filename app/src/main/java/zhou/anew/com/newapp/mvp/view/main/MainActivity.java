@@ -4,6 +4,7 @@ import android.view.View;
 
 import zhou.anew.com.newapp.R;
 import zhou.anew.com.newapp.mvp.view.BaseActivity;
+import zhou.anew.com.newapp.mvp.view.activityLifecycle.Main6Activity;
 import zhou.anew.com.newapp.mvp.view.bannerView.Main4Activity;
 import zhou.anew.com.newapp.mvp.view.gridViewAndPicasso.Main2Activity;
 import zhou.anew.com.newapp.mvp.view.shoppingView.Main3Activity;
@@ -33,5 +34,9 @@ public class MainActivity extends BaseActivity {
 
     public void startUniversalAdapter(View view){
         toActivity(this,Main5Activity.class);
+    }
+
+    public void startActivity(View view){
+        toActivity(this,Main6Activity.class);
     }
 }

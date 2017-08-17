@@ -13,7 +13,7 @@
         android:background="@color/white"
         android:layout_marginTop="5dp"
         android:showDividers="middle"
-        android:divider="@drawable/liner_layout_line_height">
+        android:divider="@drawable/liner_layout_line_width">
 
         <TextView
             android:layout_width="0dp"
@@ -42,7 +42,7 @@
         android:layout_marginTop="5dp"
         android:weightSum="2"
         android:showDividers="middle"
-        android:divider="@drawable/liner_layout_line_height">
+        android:divider="@drawable/liner_layout_line_width">
 
         <TextView
             android:layout_width="0dp"
@@ -63,5 +63,37 @@
             android:onClick="startUniversalAdapter"/>
 
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:layout_marginTop="5dp"
+        android:weightSum="2"
+        android:showDividers="middle"
+        android:divider="@drawable/liner_layout_line_width">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Activity 生命周期"
+            android:gravity="center"
+            android:clickable="true"
+            android:onClick="startActivity"/>
+
+        <TextView
+            android:visibility="invisible"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="万能adapter"
+            android:gravity="center"
+            android:clickable="true"
+            android:onClick="startUniversalAdapter"/>
+
+    </LinearLayout>
+
+    startActivity
 
 </LinearLayout>

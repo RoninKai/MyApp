@@ -13,23 +13,45 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity
+            android:name=".mvp.view.splash.SplashActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mvp.view.login.LoginActivity"
+            android:screenOrientation="portrait">
 
-        <activity android:name=".mvp.view.splash.SplashActivity" android:screenOrientation="portrait" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-        <activity android:name=".mvp.view.login.LoginActivity" android:screenOrientation="portrait">
-            <intent-filter> <action android:name="android.intent.action.MAIN" /> <category android:name="android.intent.category.LAUNCHER" /> </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
         </activity>
+        <activity
+            android:name=".mvp.view.main.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mvp.view.gridViewAndPicasso.Main2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mvp.view.shoppingView.Main3Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mvp.view.bannerView.Main4Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mvp.view.universalAdapter.ui.Main5Activity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".mvp.view.activityLifecycle.Main6Activity" />
+        <activity
+            android:name=".mvp.view.keyboardNumber.Main7Activity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden">
 
-        <activity android:name=".mvp.view.main.MainActivity" android:screenOrientation="portrait" />
-
-        <activity android:name=".mvp.view.gridViewAndPicasso.Main2Activity" android:screenOrientation="portrait" />
-
-        <activity android:name=".mvp.view.shoppingView.Main3Activity" android:screenOrientation="portrait" />
-
-        <activity android:name=".mvp.view.bannerView.Main4Activity" android:screenOrientation="portrait" />
-
-        <activity android:name=".mvp.view.universalAdapter.ui.Main5Activity" android:screenOrientation="portrait" />
-
+        </activity>
+        <activity android:name=".mvp.view.textView.Main8Activity"
+            android:theme="@style/myTheme"
+            ></activity>
     </application>
 
 </manifest>
